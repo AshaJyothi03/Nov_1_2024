@@ -1,0 +1,3 @@
+from FUNCTIONS.Contract_emp_package import Contract_emp_module as cont
+cont.contract_details()
+cont.bonus_details(34000)
