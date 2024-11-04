@@ -1,0 +1,11 @@
+#emp_module consists of used defined functions related employees
+def emp_details():
+    total_no_emp=5
+    list_emp=['ASHA','JYOTHI','HUSSAIN','AYANSHI','NADIA']
+    print("No.of employees: ",total_no_emp)
+    print("\nNames of employees: ",list_emp)
+
+def bonus_details(salary):
+    bonus=(salary*50)/100
+    print("bonus: ",bonus)
+    print("total month amount: ",bonus+salary)
