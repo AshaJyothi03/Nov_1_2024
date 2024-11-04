@@ -1,0 +1,4 @@
+from FUNCTIONS.Employee_related_package import Emp_module
+
+Emp_module.emp_details()
+Emp_module.bonus_details(45000)
