@@ -1,0 +1,10 @@
+def contract_details():
+    total_no_emp=5
+    list_emp=['ASHA','JYOTHI','HUSSAIN','AYANSHI','NADIA']
+    print("No.of employees: ",total_no_emp)
+    print("\nNames of employees: ",list_emp)
+
+def bonus_details(salary):
+    bonus=(salary*40)/100
+    print("bonus: ",bonus)
+    print("total month amount: ",bonus+salary)
